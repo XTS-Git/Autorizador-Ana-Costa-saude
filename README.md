@@ -79,7 +79,7 @@ http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
 | senha                      | Obrigatório     | alfanumérico | sequencia de caracteres gerados para validar a solicitação |
 
 
-> Exemplo de acesso com ajax ( jquery )
+## Exemplo de acesso com ajax ( jquery )
 
 
 ### OBS: 
