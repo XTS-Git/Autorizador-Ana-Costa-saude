@@ -5,7 +5,10 @@
 Link para acesso ao verificador de elegibilidade
 http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
 
+
 > Parâmetros de entrada JSON:
+
+
 
 ````
 {
@@ -18,7 +21,11 @@ http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
   dataOperacao: ''
 }
 ````
+
+
 > Especificação parâmetros de entrada
+
+
 
 | atributo                   |   obrigatório   | tipo         |  descrição   |
 | ---------------------------|-----------------|--------------|--------------|
@@ -31,7 +38,9 @@ http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
 | dataOperacao               | Obrigatório     | Data/Hora    | Data e hora da solicitação no formato **dd/mm/aaaa hh:mm** |
 
 
+
 > Formato da resposta JSON:
+
 
 ````
 {
@@ -47,7 +56,10 @@ http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
 }
 ````
 
+
 > Especificação resposta:
+
+
 
 | atributo                   |   obrigatório   | tipo         |  descrição   |
 | ---------------------------|-----------------|--------------|--------------|
