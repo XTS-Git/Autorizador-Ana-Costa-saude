@@ -1,5 +1,10 @@
 # Autorizador Ana Costa saúde
 
+
+
+
+## Troca de informações por JSON
+
 ### Verificação de  Elegibilidade
 
 Link para acesso ao verificador de elegibilidade
