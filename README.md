@@ -95,7 +95,7 @@ var objetoValido = response.d;
       numerocarteira: 'XXXX123456789',      
       codigoPrestadorNaOperadora: '55555',      
       dataOperacao: "11/11/1111 11:11",      
-      sequencialTransacao: 123,      
+      sequencialTransacao: "123",      
       loginPrestador: "",      
       senhaPrestador: "",      
       registroANS: ""      
