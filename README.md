@@ -77,3 +77,35 @@ http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
 | respostaSolicitacao        | Obrigatório     | alfanumérico | S/N - **S** para elegível **N** para não elegível |
 | versao                     |                 | alfanumérico | versão da API |
 | senha                      | Obrigatório     | alfanumérico | sequencia de caracteres gerados para validar a solicitação |
+
+
+> Exemplo de acesso com ajax ( jquery )
+````
+  var dado = {  
+      numerocarteira: 'XXXX123456789',      
+      codigoPrestadorNaOperadora: '55555',      
+      dataOperacao: "11/11/1111 11:11",      
+      sequencialTransacao: 123,      
+      loginPrestador: "",      
+      senhaPrestador: "",      
+      registroANS: ""      
+  };
+  
+  $.ajax({
+      url: http://url.da.api,
+      data: dado,
+      type: "POST",
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      success: function (response) {
+          if (response) {
+              $('#retornaExemplo').text(JSON.stringify(response.d));
+          } else {
+              $('#retornaExemplo').html('Não retornou nada');
+          }
+      },
+      error: (function Error(request) {
+          $('#retornaXMLExemplo').html('ERROR text: ' + request.responseText + '\r\nDADOS: ' + JSON.stringify(dado));
+      })  
+  });
+````
