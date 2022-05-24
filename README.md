@@ -103,7 +103,7 @@ var objetoValido = response.d;
   
   $.ajax({
       url: http://url.da.api,
-      data: dado,
+      data: JSON.stringify(dado),
       type: "POST",
       contentType: "application/json; charset=utf-8",
       dataType: "json",
