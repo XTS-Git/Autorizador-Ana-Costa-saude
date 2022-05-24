@@ -80,6 +80,16 @@ http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
 
 
 > Exemplo de acesso com ajax ( jquery )
+
+
+### OBS: 
+> A resposta vai estar encapsulada em um objeto "d" ( não sei porque motivo, coisa da Microsoft nessa versão ), então a variável de retorno irá recuperar a informação
+desta forma:
+
+````
+var objetoValido = response.d;
+````
+
 ````
   var dado = {  
       numerocarteira: 'XXXX123456789',      
