@@ -2,13 +2,18 @@
 
 
 
+## Troca de Informações padrão TISS/ANS
+### Solicitação de Procedimentos `Padrão TISS 3.03.03`
+
+#### O Manual em PDF foi baixado direto do site da ANS [link direto para página](http://www.ans.gov.br/images/stories/Plano_de_saude_e_Operadoras/tiss/Padrao_tiss/manual_comunicacao_seguranca.pdf) 
+</br></br></br></br></br>
 
 ## Troca de informações por JSON
 
 ### Verificação de  Elegibilidade
 
-Link para acesso ao verificador de elegibilidade
-http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade
+Link para acesso ao verificador de elegibilidade deve ser informado pela operadora
+<!--http://agendaweb.anacosta.com.br/api/autorizador.aspx/Elegibilidade-->
 
 
 > Parâmetros de entrada JSON:
